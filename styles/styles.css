@@ -1,0 +1,195 @@
+/****************************/
+/* global styling */
+/****************************/
+
+
+@import 'https://fonts.googleapis.com/css?family=Bungee|Nunito|Oxygen';
+
+html, body {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+}
+
+body  {
+     /*https://lea.verou.me/css3patterns/#weave*/
+    background:
+            linear-gradient(135deg, transparent 22px, #3A64FF 22px, #3A64FF 24px, transparent 24px, transparent 67px, #3A64FF 67px, #3A64FF 69px, transparent 69px),
+            linear-gradient(225deg, transparent 22px, #3A64FF 22px, #3A64FF 24px, transparent 24px, transparent 67px, #3A64FF 67px, #3A64FF 69px, transparent 69px)0 64px;
+    background-color:#1F1053;
+    background-size: 64px 128px
+}
+
+header {
+    background-color: #FF403A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 2em;
+    height: 6em;
+    font-family: 'Bungee', cursive;
+}
+
+
+h1 {
+    color: #FF403A;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    color: #FF403A;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+h3 {
+    color: #33FF7C;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4 {
+    color: #3A64FF;
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 100%;
+    font-family: 'Nunito', sans-serif;
+    color: #33FF7C;
+    text-align: center;
+
+}
+
+
+code {
+    font-family: 'Ubuntu Mono', monospace; /* needed for Chrome */
+}
+
+img{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**********************/
+/* styling by section */
+/**********************/
+
+#banner {
+    background-color: #1F1053;
+    color: #ffffff;
+    width: 100%;
+}
+
+#banner > h1 {
+    /* border: solid 1px white; */
+    font-family: 'Bungee', cursive;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    max-width: 960px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+#banner > h2 {
+    /* border: solid 1px white; */
+    font-family: 'Nunito', sans-serif;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    max-width: 960px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+#nav_bar {
+    border-bottom: solid 2px #3A64FF;
+    font-family: 'Oxygen', sans-serif;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-left: auto;
+    max-width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background: #FF403A;
+    text-align: center;
+}
+
+.nav_span {
+    margin-right: 2em;
+}
+
+.nav_span_cur {
+    margin-right: 2em;
+    color: #ABF7FF;
+}
+
+.nav_span a {
+    text-decoration: none;
+}
+
+#content {
+    width: 100%;
+    max-width: 960px;
+    margin-top: 9em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.captions {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-size: 85%;
+}
+
+.entry {
+    display: block;
+    width: 60%;
+    margin: auto;
+    background-color: #ABF7FF;
+    margin-top: 3%;
+    padding-bottom: 1%;
+}
+.entry img{
+    max-width:100%;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.entry .captions{
+    color: #1F1053;
+}
+    
+.entry .thumb {
+  max-width: 100%;
+  width: 50%;
+  margin: auto;
+  padding-top: 1%;
+  
+}
+.entry .thumb img {
+  max-height: 300px;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+
